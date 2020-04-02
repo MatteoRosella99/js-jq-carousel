@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  padding-top: 30px;
+}
+main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.float{
+  float: left;
+  height: 800px;
+}
+.freccia{
+  width: 10%;
+  text-align: center;
+}
+.succ > i, .prima > i{
+  font-size: 50px;
+  margin-top: 350px;
+}
+.succ > i:hover, .prima > i:hover{
+  cursor: pointer;
+  color: red;
+}
+.immagini{
+  width: 80%;
+}
+.immagini > img{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.immagini > img.attivo{
+  display: block;
+}
+.pallini{
+  text-align: center;
+}
+.pallini > ul{
+  padding-top: 30px;
+}
+.pallini > ul > li{
+  display: inline-block;
+  font-size: 24px;
+}
+li.yoyo > i{
+  color: yellow;
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 50%;
+}
