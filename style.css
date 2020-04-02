@@ -48,9 +48,16 @@ main:after{
   display: inline-block;
   font-size: 24px;
 }
+.pallini > ul > li:hover{
+  cursor: pointer;
+  opacity: 80%;
+}
 li.yoyo > i{
   color: yellow;
   background-color: yellow;
   border: 2px solid black;
   border-radius: 50%;
+}
+.pallini > ul > li.yoyo:hover{
+  opacity: 100%;
 }
